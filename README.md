@@ -10,6 +10,7 @@ I am constantly working on refining the model, expanding support for a broader r
 - Data pre-processing for financial datasets.
 - Model evaluation with metrics like RMSE and accuracy.
 - Visualization of stock trends.
+- Prediction of future stock prices for specific dates. 
 
 ## Installation:
 1. Clone the repository
@@ -35,7 +36,32 @@ I am constantly working on refining the model, expanding support for a broader r
    ```python
    python main.py
    ```
-3. Modify the dataset or parameters as needed in the config/ directory.
+3. Predict stock price
+   - Ensure lstm_model_weights.weights.h5 and scaler.pkl are available in the project directory. These files are generated after running main.py.
+   1. Run the prediction script
+   ```python
+   python predict.py
+   ```
+   2. Input the desired prediction date when prompted
+   ```python
+   Enter the date for prediction (YYYY-MM-DD): 2024-12-29
+   ```
+   3. The predicted stock price for the given date will be displayed
+   ```python
+   Predicted price for 2024-12-29: $129.32
+   ```
+## Directory Structure
+ - main.py: Script for training the LSTM model.
+ - predict.py: Script for predicting future stock prices.
+ - features.py: Contains feature engineering functions.
+ - indicators.py: Includes financial indicators like RSI, MACD, and Bollinger Bands.
+ - config.py: Configuration for dataset paths and model parameters.
+ - data_processing.py: Functions for loading and processing financial data.
+ - evaluate.py: Model evaluation metrics and visualization tools.
+
+
+
+
 
 
 
