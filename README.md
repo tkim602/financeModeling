@@ -1,9 +1,9 @@
 # financeModeling (stock price prediction) 
 
-A basic machine learning project for stock market prediction and analysis using Python as a beginner. 
-
 ## Introduction:
-The financeModeling project leverages machine learning and deep learning models to analyze and predict stock market trends. It uses libraries like TensorFlow and NumPy to process financial data and generate insights.
+This repository is dedicated to building and improving a robust stock price prediction model using LSTM and other advanced machine learning techniques. The project aims to handle multiple stocks, extract meaningful features, and enhance prediction accuracy with continuous iteration and innovation.
+
+I am constantly working on refining the model, expanding support for a broader range of stocks, and integrating advanced data-driven approaches to deliver more precise predictions. Contributions, suggestions, and collaborations are highly encouraged to make this project even better.
 
 ## Features: 
 - Stock price prediction using LSTM.
